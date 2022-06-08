@@ -4,7 +4,7 @@ const nameOfCity = str => str.toLowerCase().startsWith('los') || str.toLowerCase
 
 const isDivisible = int => int % 100 === 0 
 
-const isRaining = bool => bool ? "wet day - you need an umbrella" : "dry day - leave your umbrella at home"
+const isRaining = bool => bool ? "wet day - you need an umbrella!" : "dry day - leave your umbrella at home!"
 
 const geometricalSequence = () => {
     let output = [1]
@@ -35,5 +35,5 @@ const vowelCount = str => {
     return counter
 }
 // DO NOT EDIT below this line - This will result in an automatic fail
-// module.exports = {nameOfCity, isDivisible, missingAngle, isRaining, geometricalSequence, multiplesOfThree, powerOf, vowelCount};
+module.exports = {nameOfCity, isDivisible, isRaining, geometricalSequence, multiplesOfThree, powerOf, vowelCount};
 
